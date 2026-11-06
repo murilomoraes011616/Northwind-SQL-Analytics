@@ -1,3 +1,5 @@
+#Faça uma análise de crescimento mensal e o cálculo de YTD
+
 WITH ReceitasMensais AS (
     SELECT
         EXTRACT(YEAR FROM orders.order_date) AS Ano,
