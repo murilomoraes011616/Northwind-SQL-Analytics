@@ -1,4 +1,4 @@
-# Relatórios Avançados em SQL Northwind
+# Relatório de Portfólio em SQL Northwind
 
 ## Objetivo
 
