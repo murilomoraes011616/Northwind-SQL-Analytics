@@ -1,4 +1,3 @@
-#qual e o valor 
 
 SELECT 
     customers.company_name, 

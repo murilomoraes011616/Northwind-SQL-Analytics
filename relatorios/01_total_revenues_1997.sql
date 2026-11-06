@@ -1,6 +1,3 @@
-#Relatórios de receita
-#qualfoi o total de receitas no ano de 1997?
-
 SELECT SUM((order_details.unit_price) * order_details.quantity * (1.0 - order_details.discount)) AS total_revenues_1997
 FROM order_details
 INNER JOIN (
