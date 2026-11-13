@@ -1,4 +1,5 @@
 
+
 SELECT 
     customers.company_name, 
     SUM(order_details.unit_price * order_details.quantity * (1.0 - order_details.discount)) AS total
