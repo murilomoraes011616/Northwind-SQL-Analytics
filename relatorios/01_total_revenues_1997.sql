@@ -1,4 +1,6 @@
-SELECT SUM((order_details.unit_price) * order_details.quantity * (1.0 - order_details.discount)) AS total_revenues_1997 --calcule of the total revenues for each order
+
+SELECT
+SUM((order_details.unit_price) * order_details.quantity * (1.0 - order_details.discount)) AS total_revenues_1997 --calcule of the total revenues for each order
 FROM order_details -- select wich table uses in code, the table have the price of each product 
 INNER JOIN (
     SELECT order_id -- select the table have quantity of orders 
